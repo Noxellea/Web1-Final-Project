@@ -1,0 +1,92 @@
+/*		Control switch flex directions based on orientation		*/
+@media(orientation: landscape){
+	.switch{flex-direction: row;}
+}
+@media(orientation: portrait){
+	.switch{flex-direction: column;}
+}
+
+main{
+/* 	width: 100%;
+	height: 70%;
+	align-items: center;
+	gap: 10px; */
+}
+	#plotText{
+		word-wrap: normal;
+		height: 20%;
+		max-width: 60%;
+		align-content: center;
+	}
+	.character{
+	}
+		.charButtons{
+		}
+			#char0{
+			}
+			#char1{
+			}
+			#char2{
+			}
+			#char3{
+			}
+			#char4{
+			}
+			#char5{
+			}
+			#char6{
+			}
+			#char7{
+			}
+			#char8{
+			}
+		.charInfo{
+		}
+			.button{ /*take from common?*/
+			}
+			#buttonLeft{
+			}
+			#characterImage{
+			}
+			#characterText{
+			}
+			#buttonRight{
+			}
+	.episodes{
+	}
+		.epButtons{
+		}
+			#ep0{
+			}
+			#ep1{
+			}
+			#ep2{
+			}
+			#ep3{
+			}
+			#ep4{
+			}
+			#ep5{
+			}
+			#ep6{
+			}
+			#ep7{
+			}
+			#ep8{
+			}
+			#ep9{
+			}
+		.epInfo{
+		}
+			#episodeOverview{
+			}
+			#episodeImage{
+			}
+aside{
+	width: 15%;
+	justify-content: center;
+	padding-right: 15px;
+}
+/*{
+	border: 1px dotted black;
+}/*	debug for viewing boxes */
