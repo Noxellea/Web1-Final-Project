@@ -11,6 +11,13 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
+        height: 1500px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .flex_container {
@@ -53,12 +60,28 @@
         gap: 10px;
     }
 
-    .nav {
+    nav {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 20%;
+        gap: 50%;
+    }
+
+    #footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #85543e;
+        height: 100px;
+        border-radius: 20px;
+        border-color: aqua;
+        border-width: 3px;
+        border-style: solid;
+    }
+
+    ul {
+        padding: 20px;
     }
 
 }
@@ -71,7 +94,7 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
-        
+        height: 1200px;
     }
 
     header {
@@ -125,21 +148,42 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 20%;
+        gap: 50%;
     }
+
+    #footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #85543e;
+        border-radius: 20px;
+        border-color: aqua;
+        border-width: 3px;
+        border-style: solid;
+    }
+
 
 }
 
 #main {
-    border-width: 2px;
+    border-radius: 20px;
+    border-color: aqua;
+    border-width: 3px;
     border-style: solid;
     max-width: 80%;
+    background-color: #208dd5;
+    margin-top: 30px;
 }
 
-.flex_container {
-    background-color: #208dd5;
-    border-width: 2px;
+.flexContainer {
+    background-color: #208da5;
+    border-radius: 20px;
+    border-color: aqua;
+    border-width: 3px;
     border-style: solid;
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 20px;
 }
 
 
@@ -151,9 +195,21 @@ img {
 }
 
 header {
-    background-color: #503527;
+    height: 100px;
+    background-color: #85543e;
+    border-radius: 20px;
+    border-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+    max-width: 90%;
 }
 
-nav {
-    background-color: #503527;
+
+#plotSummary {
+    font-size: 2rem;
+}
+
+
+footer {
+    width: 90%;
 }
