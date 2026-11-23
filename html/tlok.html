@@ -7,6 +7,7 @@
   <title>The Legend of Korra</title>
   <link rel="stylesheet" href="./../css/common.css">
   <link rel="stylesheet" href="./../css/tlok.css">
+  <script src="../scripts/tlok.js" defer></script>
 </head>
 
 <body>
@@ -17,73 +18,82 @@
       </header>
       <section>
         <div class="flexContainer">
-          <p id="plotSummary">The Legend of Korra is a sequel to Avatar: the last airbender, following the avatar Korra. Throughout her journey she encounters various characters, both good and bad. </p>
+          <p id="plotSummary">The Legend of Korra is a sequel to Avatar: the last airbender, following the avatar Korra.
+            Throughout her journey she encounters various characters, both good and bad. </p>
         </div>
       </section>
-      <section>
-        <div id="characters">
-
-          <div class="individualCharacters">
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fdeathbattle.fandom.com%2Fwiki%2FKorra&ved=0CBcQjRxqFwoTCICD68CsnJgDFQAAAAAdAAAAABA4&opi=89978449"
-              target="_blank">
-              <img src=../assets/Korra-Portait.png width="100" height="100">
-            </a>
-            <div class="characterDescription">
-              <h3>Korra</h3>
-              <p>description</p>
-            </div>
-          </div>
-
-          <div class="individualRevCharacters">
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.facebook.com%2FMakoALOK%2F&ved=0CBcQjRxqFwoTCPDpnvyxnJgDFQAAAAAdAAAAABBb&opi=89978449"
-              target="_blank">
-              <img src="../assets/Mako-Portrait.jpg" width="100" height="100">
-            </a>
-            <div class="characterDescription">
-              <h3>Mako</h3>
-              <p>description</p>
-            </div>
-          </div>
-
-          <div class="individualCharacters">
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Flegendofkorra%2Fcomments%2F1sm70u0%2Fasami_as_equalist_spy_shouldve_kept_in_especially%2F&ved=0CBcQjRxqFwoTCNDgq5GynJgDFQAAAAAdAAAAABA4&opi=89978449"
-              target="_blank">
-              <img src="../assets/asami-portrait.webp" width="100" height"100">
-            </a>
-            <div class="characterDescription">
-              <h3>Asami</h3>
-              <p>description</p>
-            </div>
-          </div>
-
-          <div class="individualRevCharacters">
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Favatar.fandom.com%2Fwiki%2FBolin&ved=0CBcQjRxqFwoTCPCbnIu-nJgDFQAAAAAdAAAAABBW&opi=89978449"
-              target="_blank">
-              <img src="../assets/bolin-portait.png" width="100" height="100">
-            </a>
-            <div class="characterDescription">
-              <h3>Bolin</h3>
-              <p>description</p>
-            </div>
-          </div>
-
-          <div class="individualCharacters">
-            <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Flegendofkorra%2Fcomments%2F1x9s1pi%2Fchange_my_point_of_view_zaheer_wasnt_a_villain%2F&ved=0CBcQjRxqFwoTCOCCmuS_nJgDFQAAAAAdAAAAABA4&opi=89978449"
-              target="_blank">
-              <img src="../assets/zaheer-Portrait.jpeg" width="100" height="100">
-            </a>
-            <div class="characterDescription">
-              <h3>Zaheer</h3>
-              <p>description</p>
-            </div>
-          </div>
-
-        </div>
+      <section id="showAnalysis">
+        <p>Analysis of the show depending on important parts of the story</p>
       </section>
+
       <div class="flexContainer">
-        <aside id="showAnalysis">
-          <p>Analysis of the show depending on important parts of the story</p>
+        <aside>
+          <div class="gallery col">
+
+            <div class="individualCharacters active">
+              <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fdeathbattle.fandom.com%2Fwiki%2FKorra&ved=0CBcQjRxqFwoTCICD68CsnJgDFQAAAAAdAAAAABA4&opi=89978449"
+                target="_blank">
+                <img src=../assets/Korra-Portait.png width="100" height="100">
+              </a>
+              <div class="characterDescription">
+                <h3>Korra</h3>
+                <p>description</p>
+              </div>
+            </div>
+
+            <div class="individualRevCharacters hidden">
+              <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.facebook.com%2FMakoALOK%2F&ved=0CBcQjRxqFwoTCPDpnvyxnJgDFQAAAAAdAAAAABBb&opi=89978449"
+                target="_blank">
+                <img src="../assets/Mako-Portrait.jpg" width="100" height="100">
+              </a>
+              <div class="characterDescription">
+                <h3>Mako</h3>
+                <p>description</p>
+              </div>
+            </div>
+
+            <div class="individualCharacters hidden">
+              <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Flegendofkorra%2Fcomments%2F1sm70u0%2Fasami_as_equalist_spy_shouldve_kept_in_especially%2F&ved=0CBcQjRxqFwoTCNDgq5GynJgDFQAAAAAdAAAAABA4&opi=89978449"
+                target="_blank">
+                <img src="../assets/asami-portrait.webp" width="100" height"100">
+              </a>
+              <div class="characterDescription">
+                <h3>Asami</h3>
+                <p>description</p>
+              </div>
+            </div>
+
+            <div class="individualRevCharacters hidden">
+              <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Favatar.fandom.com%2Fwiki%2FBolin&ved=0CBcQjRxqFwoTCPCbnIu-nJgDFQAAAAAdAAAAABBW&opi=89978449"
+                target="_blank">
+                <img src="../assets/bolin-portait.png" width="100" height="100">
+              </a>
+              <div class="characterDescription">
+                <h3>Bolin</h3>
+                <p>description</p>
+              </div>
+            </div>
+
+            <div class="individualCharacters hidden">
+              <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Flegendofkorra%2Fcomments%2F1x9s1pi%2Fchange_my_point_of_view_zaheer_wasnt_a_villain%2F&ved=0CBcQjRxqFwoTCOCCmuS_nJgDFQAAAAAdAAAAABA4&opi=89978449"
+                target="_blank">
+                <img src="../assets/zaheer-Portrait.jpeg" width="100" height="100">
+              </a>
+              <div class="characterDescription">
+                <h3>Zaheer</h3>
+                <p>description</p>
+
+              </div>
+            </div>
+
+            <footer id="button">
+              <button>&lt;</button>
+              <button>&gt;</button>
+            </footer>
+          </div>
         </aside>
+
+
         <section id="themes">
           <ul>
             <li>THEME-how it is shown in the show</li>
