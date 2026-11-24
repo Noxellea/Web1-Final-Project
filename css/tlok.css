@@ -5,23 +5,13 @@
 }
 
 #main {
-<<<<<<< HEAD
   border-radius: 20px;
   border-color: aqua;
   border-width: 3px;
   border-style: solid;
   max-width: 80%;
-  background-color: #208dd5;
+  background-color: #308dd5;
   margin-top: 30px;
-=======
-    border-radius: 20px;
-    border-color: aqua;
-    border-width: 3px;
-    border-style: solid;
-    max-width: 80%;
-    background-color: #308dd5;
-    margin-top: 30px;
->>>>>>> 011e5f8df41c217bedd9c6ad664fd8678fb7ae44
 }
 
 .flexContainer {
